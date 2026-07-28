@@ -69,9 +69,9 @@ namespace Timer
                 timer1.Enabled = false;
                 return;
             }
-            
-            UpDateToTimer();
+        
             --Seconds;
+            UpDateToTimer()
         }
         private void GetInput()
         {
